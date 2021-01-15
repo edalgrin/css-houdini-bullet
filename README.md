@@ -13,7 +13,7 @@ Using CDN is the easiest way to add the library:
 ```js
 if ("paintWorklet" in CSS) {
   CSS.paintWorklet.addModule(
-    "https://unpkg.com/css-houdini-bullet/dist/worklet.js"
+    "https://unpkg.com/css-houdini-bullet/public/worklet.js"
   );
 }
 ```
@@ -29,7 +29,7 @@ To add support for all moder browsers, you can load the worklet with [css-paint-
       await import("https://unpkg.com/css-paint-polyfill");
 
     CSS.paintWorklet.addModule(
-      "https://unpkg.com/css-houdini-bullet/dist/worklet.js"
+      "https://unpkg.com/css-houdini-bullet/public/worklet.js"
     );
   })();
 </script>
