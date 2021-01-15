@@ -70,20 +70,24 @@ if (typeof registerPaint !== "undefined") {
           r = radiusMin;
         }
 
-        // Try 50000 times to leave a minium gap
-        let safety = 50000;
+        // Try 10000 times to leave a minium gap
+        let safety = 10000;
         let repeat = true;
         while (repeat && safety > 0) {
           safety--;
           x = Math.random() * w;
           y = Math.random() * h;
           if (border < w) {
-            while (x <= border || x >= w - border) {
+            let safetyX = 100;
+            while (safetyX > 0 && (x <= border || x >= w - border)) {
+              safetyX--;
               x = Math.random() * w;
             }
           }
           if (border < h) {
-            while (y <= border || y >= h - border) {
+            let safetyY = 100;
+            while (safetyY > 0 && (y <= border || y >= h - border)) {
+              safetyY--;
               y = Math.random() * h;
             }
           }
