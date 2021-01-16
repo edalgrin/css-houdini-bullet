@@ -4,6 +4,8 @@
 
 A CSS Houdini Worklet to paint "bullet holes".
 
+[Demo](https://codepen.io/edalgrin/full/bGwOeqY)
+
 ## Getting started
 
 ### 1. Load the worklet
