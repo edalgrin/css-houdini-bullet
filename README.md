@@ -1,6 +1,6 @@
 # CSS Houdini Bullet
 
-![CSS Houdini Bullet example](https://assets.codepen.io/5356857/css-houdini-bullet-sample.gif)
+![css-houdini-bullet-sample](https://user-images.githubusercontent.com/46778114/104809195-b4f7c580-57eb-11eb-95de-8fe3ad75594c.gif)
 
 A CSS Houdini Worklet to paint "bullet holes".
 
